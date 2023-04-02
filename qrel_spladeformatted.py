@@ -7,6 +7,6 @@ with open("2020data/2020qrels.tsv", "r") as source:
             tmp2 = tuple.rstrip().split('\t')
             if len(tmp2)>1:
                 if tmp2[1] == tmp[1]:
-                    num_id = tmp[1]
+                    num_id = tmp2[0]
                     qrel_splade.write(f"{tmp[0]}" + "\t" + f"{num_id}" + "\t" + f"{tmp[2]}" + "\t" + f"{tmp[3]}" + "\n")
     qrel_splade.close()
