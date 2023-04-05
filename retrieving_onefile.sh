@@ -10,4 +10,4 @@ python3 -m splade.retrieve \
   config.index_dir=index/2020mini_index \
   config.out_dir=retrieve/2020mini \
   data.Q_COLLECTION_PATH=2020data/2020queries_judged \
-  data.EVAL_QREL_PATH=2020data/mini/qrels_splade.tsv
+  data.EVAL_QREL_PATH=2020data/mini/TREC_qrels_splade.json
