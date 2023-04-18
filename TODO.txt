@@ -1,0 +1,30 @@
+SPLADE EN TRAINING SUR LES CONVERSATIONS SANS PRENDRE EN COMPTE L'HISTORIQUE
+TRAINING MODELE DE DEEP LEARNING, EXPERIMAESTRO
+
+IMPLÉMENTER LE MODÈLE DE NAM
+
+Learner avec Experimaestro (Trainer)
+
+Reproduire les résultats de Nam en first stage, utiliser Splade en first ranking
+
+On verra plus tard pour second ranking
+
+First stage = retrieve les top K documents
+
+MonoBERT pour second ranking actuellement
+
+- Construction index SPLADE
+- Boucle d'apprentissage avec MSE, dense+FAISS, splade, BM25, K=1000
+
+INDEXER AVEC EXPERIMAESTRO, UTILISER LE SPLADE ENTRAÎNÉ AVEC TREC POUR LE SCORER DANS LE DENSEQUERYENCODER
+
+
+Réu 11 Avril :
+Préparer transparents avec résultats pour prochaine réu
+
+TREC Cast 2021 reproduire papier BM25 T5 pour semaine pro
+Faire avec réécritures manuelles, automatiques etc
+
+VRAIMENT utiliser la PPTI pour les calculs
+
+18
