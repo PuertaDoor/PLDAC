@@ -28,3 +28,11 @@ Faire avec réécritures manuelles, automatiques etc
 VRAIMENT utiliser la PPTI pour les calculs
 
 18
+
+
+# POINTWISE SAMPLER BASÉ SUR CANARD
+    # TRAINER ADAPTÉ À CE SAMPLER
+    # HISTORIQUE À PRENDRE EN COMPTE ÉGALEMENT
+    # splade gold query + monot5 gold reranker (sans apprentissage) (utiliser répertoire de travail AutoModel)
+    # LE MACHIN DOIT PRENDRE EN INFÉRENCE QUESTION AVEC HISTORIQUE DANS LA PIPELINE
+    # MONOT5 AVEC COSPLADE (SPLADE ENTRAÎNÉ) POUR FINIR PIPELINE
